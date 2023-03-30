@@ -565,7 +565,7 @@ body {
 }
 
 .input-check:checked + .user-policy::before {
-    background-image: url(/images/Vector.svg);
+    background-image: url(./Vector.svg);
     background-color: #404bbf;
     background-repeat: no-repeat;
     background-position: center;
