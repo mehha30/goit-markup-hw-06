@@ -564,7 +564,7 @@ body {
     color: #404bbf;
 }
 
-.input-check:checked+.user-policy::before {
+.input-check:checked + .user-policy::before {
     background-image: url(/images/Vector.svg);
     background-color: #404bbf;
     background-repeat: no-repeat;
@@ -572,7 +572,7 @@ body {
 
 }
 
-.input-check:focus+.user-policy::before {
+.input-check:focus + .user-policy::before {
     background-color: #404bbf;
 }
 
@@ -847,6 +847,7 @@ body {
     line-height: 1,5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 
