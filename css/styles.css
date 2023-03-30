@@ -291,7 +291,7 @@ body {
 }
 
 .current {
-    color: var(--hover-color);
+    color: #404bbf;
 }
 
 .current::after {
@@ -316,9 +316,12 @@ body {
 
 .hero-container {
     text-align: center;
-    width: 1440px;
     color: var(--color-primary-background);
     padding: 192px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -575,6 +578,9 @@ body {
 
 .form-link {
     color: #4d5ae5;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 }
 
 .form-btn {
@@ -638,9 +644,13 @@ body {
 /*-- h1 --*/
 .hero-tile {
     color: var(--color-primary-background);
-    font-size: var(--font-size-hero-tile);
-    font-weight: var(--font-weight-bold);
-    line-height: var(--line-height-hero-tile);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 /*-- h2 --*/
 .section-top-title {
@@ -794,7 +804,7 @@ body {
 .footer-social-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
     margin-top: 16px;
 }
 
@@ -833,9 +843,9 @@ body {
 .footer-form-disc {
     font-family: inherit;
     font-weight: 500;
-    font-size: x-large;
-    line-height: 1.5;
-    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
@@ -850,12 +860,9 @@ body {
     align-items: center;
     font-weight: 500;
     line-height: 1.5;
-
-    min-width: 165px;
     padding: 8px 24px;
     gap: 16px;
-    margin-left: 16px;
-
+    margin-left: 24px;
     border: none;
     background-color: #4d5ae5;
     border-radius: 4px;
